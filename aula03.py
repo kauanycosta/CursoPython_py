@@ -3,14 +3,14 @@
 #Exemplo: "Você nasceu em 25 de setembro de 1999"
 # ----------------------------------------------------------------------------------------------------- //
 
-import auxiliar21junho
+import auxiliaraula03
 def principal():
     data = str(input("Informe a sua data de nascimento (dd/mm/aaaa): "))
     dataLimpa = data.split('/')
     dia = dataLimpa[0]
     mes = dataLimpa[1]
     ano = dataLimpa[2]
-    auxiliar21junho.nomeando(dia, mes, ano)
+    auxiliaraula03.nomeando(dia, mes, ano)
 
 if(__name__=='__main__'):
     principal()
